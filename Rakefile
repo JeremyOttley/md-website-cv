@@ -3,6 +3,8 @@ require 'rake'
 #=> rake index.html 
 #=> rake index.pdf
 
+task :default => ["index.html", "index.pdf"]
+
 desc "Convert index.md to index.html"
 file "index.html" => ["index.md"] do |t|
 	sh "pandoc index.md -s -c style.css --toc -o index.html"
