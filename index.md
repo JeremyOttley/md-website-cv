@@ -1,5 +1,5 @@
 ---
-title: Luke Smith
+title: Jeremy Ottley
 linkcolor: blue
 pdf-engine: xelatex
 header-includes:
@@ -9,7 +9,7 @@ classoption: "12pt"
 
 # About
 
-I'm Luke Smith.
+I'm Jeremy Ottley.
 
 You're looking at a document that doubles as a .pdf CV and a html webpage. However you're viewing this, welcome! A lot of relevant information about me is here.
 
